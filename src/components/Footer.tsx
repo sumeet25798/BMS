@@ -1,4 +1,4 @@
-import { Battery, Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 export default function Footer() {
   const scrollTo = (href: string) => {
@@ -10,23 +10,18 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-400 to-teal-600">
-                <Battery className="h-6 w-6 text-white" />
-              </div>
+            <div className="flex items-center gap-3">
               <div>
-                <span className="block text-lg font-bold leading-none text-white">
+                <span className="block text-2xl font-black leading-none text-white">
                   KSO STAR
                 </span>
-                <span className="block text-[10px] font-medium uppercase tracking-widest text-emerald-400">
-                  Lithium LFP Batteries
+                <span className="block text-xs italic tracking-[0.16em] text-[#b8e36d]">
+                  Power your life
                 </span>
               </div>
             </div>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-slate-400">
-              Premium lithium iron phosphate battery packs for e-rickshaws,
-              electric vehicles, and energy storage. Manufactured by KS NEX
-              POWER LLP in Siliguri, West Bengal.
+              J.P Textile brings 30+ years of manufacturing and trading experience to KSO STAR energy solutions.
             </p>
           </div>
 
@@ -37,8 +32,8 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               {[
                 { label: 'Products', href: '#products' },
-                { label: 'OEM Partnership', href: '#oem' },
-                { label: 'Technology', href: '#technology' },
+                { label: 'Energy Solutions', href: '#technology' },
+                { label: 'Projects', href: '#oem' },
                 { label: 'About Us', href: '#about' },
                 { label: 'Get Quote', href: '#contact' },
               ].map((link) => (
@@ -61,15 +56,15 @@ export default function Footer() {
             <ul className="mt-4 space-y-3">
               <li className="flex items-start gap-2 text-sm text-slate-400">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-emerald-400" />
-                Siliguri, West Bengal, India
+                Nepal | Assam | Bengal | Bihar
               </li>
               <li className="flex items-start gap-2 text-sm text-slate-400">
                 <Phone className="mt-0.5 h-4 w-4 shrink-0 text-emerald-400" />
-                KS NEX POWER LLP
+                Jai Prakash Agarwal
               </li>
               <li className="flex items-start gap-2 text-sm text-slate-400">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-emerald-400" />
-                OEM Inquiries Welcome
+                Manufacturing & Trading
               </li>
             </ul>
           </div>
@@ -78,11 +73,11 @@ export default function Footer() {
         <div className="mt-10 border-t border-white/10 pt-6">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-xs text-slate-500">
-              &copy; {new Date().getFullYear()} KSO STAR — KS NEX POWER LLP. All
+              &copy; {new Date().getFullYear()} KSO STAR — J.P Textile. All
               rights reserved.
             </p>
             <p className="text-xs text-slate-500">
-              Brand: KSO STAR | Siliguri, West Bengal
+              Power your life
             </p>
           </div>
         </div>

@@ -7,21 +7,32 @@ html {
 }
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  background: #f4f8fb;
+  color: #10243e;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  letter-spacing: 0;
+}
+
+::selection {
+  background: #b8e36d;
+  color: #10243e;
 }
 
 ::-webkit-scrollbar {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #0f172a;
+  background: #e8f0f5;
 }
 ::-webkit-scrollbar-thumb {
-  background: #059669;
+  background: #1d72a8;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #047857;
+  background: #69ad43;
 }

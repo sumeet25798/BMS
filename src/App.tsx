@@ -10,7 +10,7 @@ import ErrorBoundary from '@/components/ErrorBoundary';
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-900">
+    <div className="min-h-screen bg-[#f4f8fb]">
       <Navbar />
       <main>
         <Hero />

@@ -81,19 +81,18 @@ export default function QuoteForm() {
   };
 
   return (
-    <section id="contact" className="bg-slate-900 py-20 md:py-28">
+    <section id="contact" className="bg-[#10243e] py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
             <span className="text-sm font-bold uppercase tracking-widest text-emerald-400">
-              Get In Touch
+              J.P Textile
             </span>
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-white md:text-4xl lg:text-5xl">
-              Request a Quote
+              Let's power your next project
             </h2>
             <p className="mt-4 text-lg text-slate-300">
-              Share your OEM requirements and we'll get back to you with detailed
-              pricing, specifications, and partnership terms.
+              Speak with us about manufacturing, trading and energy solution requirements across Nepal, Assam, Bengal and Bihar.
             </p>
 
             <div className="mt-10 space-y-4">
@@ -106,7 +105,7 @@ export default function QuoteForm() {
                     Call Us
                   </p>
                   <p className="text-sm font-semibold text-white">
-                    KS NEX POWER LLP, Siliguri
+                    Jai Prakash Agarwal
                   </p>
                 </div>
               </div>
@@ -120,7 +119,7 @@ export default function QuoteForm() {
                     Email
                   </p>
                   <p className="text-sm font-semibold text-white">
-                    For OEM inquiries and quotations
+                    Manufacturing & Trading
                   </p>
                 </div>
               </div>
@@ -134,7 +133,7 @@ export default function QuoteForm() {
                     Location
                   </p>
                   <p className="text-sm font-semibold text-white">
-                    Siliguri, West Bengal, India
+                    Nepal | Assam | Bengal | Bihar
                   </p>
                 </div>
               </div>
@@ -142,8 +141,8 @@ export default function QuoteForm() {
 
             <div className="mt-8 overflow-hidden rounded-2xl">
               <img
-                src="https://images.pexels.com/photos/9800029/pexels-photo-9800029.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Solar charging station with EV"
+                src="https://images.pexels.com/photos/37177072/pexels-photo-37177072.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="KSO STAR energy storage solution"
                 className="h-48 w-full object-cover"
               />
             </div>

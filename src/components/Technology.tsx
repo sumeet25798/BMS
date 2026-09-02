@@ -35,20 +35,18 @@ const techFeatures = [
 
 export default function Technology() {
   return (
-    <section id="technology" className="bg-white py-20 md:py-28">
+    <section id="technology" className="bg-[#eef5f8] py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="lg:sticky lg:top-28 lg:self-start">
             <span className="text-sm font-bold uppercase tracking-widest text-emerald-600">
-              Technology
+              Energy Solutions
             </span>
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl lg:text-5xl">
-              Engineered for Performance & Safety
+              Smarter storage for a changing energy landscape
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              Every KSO STAR battery pack combines premium LFP cells with smart
-              electronics to deliver reliable, safe, and efficient power for
-              demanding applications.
+              From residential backup to commercial and industrial storage, KSO STAR solutions bring together high efficiency, advanced safety and dependable performance.
             </p>
 
             <div className="mt-8 overflow-hidden rounded-2xl shadow-xl">
@@ -59,20 +57,7 @@ export default function Technology() {
               />
             </div>
 
-            <div className="mt-6 grid grid-cols-3 gap-4">
-              <div className="rounded-xl bg-slate-50 p-4 text-center">
-                <p className="text-2xl font-bold text-emerald-600">2000+</p>
-                <p className="mt-1 text-xs text-slate-500">Charge Cycles</p>
-              </div>
-              <div className="rounded-xl bg-slate-50 p-4 text-center">
-                <p className="text-2xl font-bold text-emerald-600">60V</p>
-                <p className="mt-1 text-xs text-slate-500">Max Voltage</p>
-              </div>
-              <div className="rounded-xl bg-slate-50 p-4 text-center">
-                <p className="text-2xl font-bold text-emerald-600">2 Yr</p>
-                <p className="mt-1 text-xs text-slate-500">IoT Subscription</p>
-              </div>
-            </div>
+            <div className="mt-6 rounded-xl bg-[#10243e] p-5 text-white"><p className="text-sm font-bold uppercase tracking-[0.16em] text-[#b8e36d]">Built around your application</p><p className="mt-2 text-sm leading-relaxed text-slate-300">Modular, scalable and clean energy storage for the way you work and live.</p></div>
           </div>
 
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
