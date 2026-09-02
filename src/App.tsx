@@ -6,6 +6,7 @@ import Technology from '@/components/Technology';
 import About from '@/components/About';
 import QuoteForm from '@/components/QuoteForm';
 import Footer from '@/components/Footer';
+import ErrorBoundary from '@/components/ErrorBoundary';
 
 function App() {
   return (
@@ -24,4 +25,10 @@ function App() {
   );
 }
 
-export default App;
+export default function AppWithErrorBoundary() {
+  return (
+    <ErrorBoundary>
+      <App />
+    </ErrorBoundary>
+  );
+}

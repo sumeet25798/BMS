@@ -8,7 +8,7 @@ import {
   Mail,
   MapPin,
 } from 'lucide-react';
-import { supabase } from '@/lib/supabase';
+import { supabase, getSupabaseConfigError } from '@/lib/supabase';
 import type { NewQuoteInquiry } from '@/lib/supabase';
 import { batteryModels } from '@/data/products';
 
@@ -36,6 +36,16 @@ export default function QuoteForm() {
     if (!form.name || !form.email || !form.phone) {
       setStatus('error');
       setErrorMsg('Please fill in your name, email, and phone number.');
+      return;
+    }
+
+    const configError = getSupabaseConfigError();
+    if (!supabase || configError) {
+      setStatus('error');
+      setErrorMsg(
+        configError ||
+          'Quote form is temporarily unavailable because Supabase is not configured.'
+      );
       return;
     }
 
